@@ -9,9 +9,7 @@
 }
 
 body{
-    /* background-color: rgb(85, 85, 85); */
     background-color: #F1F1F3;
-
 }
 
 
@@ -399,3 +397,25 @@ main section{
     font-weight: 400;
 }
 
+/* ================  footer section  ================ */
+
+footer{
+    padding: 50px 160px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+
+footer h3{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.social-icons{
+    margin-top: 32px;
+}
+
+.social-icons a{
+    margin-right: 23px;
+    cursor: pointer;
+}
