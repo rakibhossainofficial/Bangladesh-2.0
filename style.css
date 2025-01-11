@@ -256,7 +256,7 @@ main section{
 /* ================   Opinion-section  ================  */
 .opinion-section table{
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     width: 100%;
 
 }
@@ -273,7 +273,7 @@ main section{
 
 
 .opinion-section table td {
-    border: 1px solid black;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 24px;
     font-weight: 600;
 
@@ -286,7 +286,7 @@ main section{
     padding: 10px 14px;
     border-radius: 4px;
     background-color: #C6E4D6;
-    border: 1px solid black;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     cursor: pointer;
     font-weight: 600;
 }
