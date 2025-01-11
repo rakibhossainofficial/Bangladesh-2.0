@@ -258,13 +258,13 @@ main section{
     border-collapse: collapse;
     border: 1px solid rgba(14, 14, 14, 0.15);
     width: 100%;
-
+    margin-top: 24px;
 }
+
 .opinion-section table th{
     text-align: left;
     padding: 24px;
     background-color: #C6E4D6;
-
 }
 
 .opinion-section table th:last-child{
@@ -436,6 +436,9 @@ footer h3{
     font-size: 32px;
     margin-bottom: 32px;
 }
+footer hr{
+    background-color:rgba(14, 14, 14, 0.15);;
+}
 
 .social-icons{
     margin-top: 32px;
@@ -445,3 +448,4 @@ footer h3{
     margin-right: 23px;
     cursor: pointer;
 }
+
