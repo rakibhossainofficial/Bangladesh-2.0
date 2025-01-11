@@ -8,6 +8,12 @@
     font-family: "Fira Sans", serif;
 }
 
+body{
+    /* background-color: rgb(85, 85, 85); */
+    background-color: #F1F1F3;
+
+}
+
 
 /* ================ Reusable Code ========= */
 
@@ -59,11 +65,9 @@ header nav{
     border-radius: 24px;
     gap: 64px;
     text-align: start;
+    margin-bottom: 80px;
 
 }
-
-
-
 
 .banner-text p{
     font-size: 24px;
@@ -76,5 +80,112 @@ header nav{
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+
+/* ================ Main  ================ */
+
+main{
+    margin: 0 auto;
+    padding: 0 160px;
+
+}
+
+main section{
+    margin-bottom: 80px;
+
+}
+
+/* ================ pillars-section  ================ */
+
+.pillars-section-title{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.pillars-card{
+    display: flex;
+    gap: 24px;
+    margin-top: 34px;
+
+}
+.card {
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+
+.card-title{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+
+}
+
+.card-description{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #0e0e0eb3;
+}
+
+/* ================ Vision-section  ================ */
+
+
+.vision-title{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+
+.vision-cards{
+    display: flex;
+    gap: 24px;
+}
+
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.vision-cards .card{
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+.v-card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.v-card-2{
+    background: rgb(198, 228, 214);
+}
+
+.v-card-3{
+    background: rgb(247, 235, 207);
+}
+
+.vision-cards .card button{
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 11px 20px;
+}
+
+.v-card-1 button {
+    background: rgb(84, 144, 245);
+}
+
+.v-card-2 button {
+    background: rgb(9, 161, 92);
+}
+
+.v-card-3 button {
+    background: rgb(255, 194, 57);
 }
 
